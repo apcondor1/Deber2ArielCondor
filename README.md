@@ -151,12 +151,12 @@ I=2mA
 
 17. Se conecta un resistor de 10 V a través de una batería de 12 V. ¿Cuál es la corriente a través del resistor?
 
-R: 12V/10ohm=1.2A
+12V/10ohm=1.2A
 
 19. Se conecta un resistor de cuatro bandas a través de las terminales de una fuente de 25 V. Determine la
 corriente del resistor si el código de colores es amarillo, violeta, naranja, plata.
 
-R: 25V/47000 = 531.91µA
+ 25V/47000 = 531.91µA
 
 21. Si el voltaje del problema 20 se duplica, ¿se fundirá un fusible de 0.5 A? Explique su respuesta.
 
