@@ -10,13 +10,23 @@ NRC: 10063-202251
 
 Objetivo general
 
+Comprender las principales ecuaciones que se usa en el area de electronica , ya que es un requisito fundamental para posteriores debers-laboratorios
+
 Objetivo especifico
+
+* Estudiar la ley de ohm porque nos ayudar a entender el como se comporta las magnitudes de un circuito electrico
+
+* Analizar el tema de energia y potencias ya que nos nutrira de nuevos prefijos que se usan en el area de electrica y posteriormente nos apoyara en nuestro camino del entendimiento de electronica fundamental. 
 
 Marco teórico
 
-Capitulo 1
+Capitulo 3
 
-Capitulo 2
+![Untitled Workspace (2)](https://user-images.githubusercontent.com/117843879/202307812-14c6bbe3-1649-4ed6-af38-375cc9d599c6.png)
+
+Capitulo 4
+
+![Untitled Workspace (3)](https://user-images.githubusercontent.com/117843879/202310562-de70cb67-4fa5-4840-87cb-35cc2e75da62.png)
 
 Tarea capítulo 3
 
@@ -237,6 +247,175 @@ R=100V / 1 A
 
 R=100 ohm
 
+37. Suponga que tiene una serie de 32 luces y uno de los focos se fundió. Con el método de división a la
+mitad, y comenzando por la mitad izquierda del circuito, ¿cuántas lecturas de resistencia tomará loca-
+lizar el foco fundido si es el décimo séptimo de izquierda a derecha?
+
+Tomara 5 mediciones
+
+
+ejercicos impares capitulo 4
+
+Energía y potencia
+
+1. Demuestre que la unidad de potencia (el watt) equivale a un volt por un ampere.
+
+volt=joule/coulomb
+
+amp=coulomb/segundo
+
+3. ¿Cuál es la potencia cuando se consume energía a razón de 350 J/s?
+
+W=j/s
+
+W=350/1
+
+W=350 W
+
+5. ¿A cuántos watts equivalen 1000 J en 50 ms?
+
+W=j/s
+
+W=1000/50
+
+W=20kW
+
+7. Convierta las siguientes cantidades en megawatts:
+
+![image](https://user-images.githubusercontent.com/117923992/202029633-46d1a664-3046-46b3-b245-b049b7588e78.png)
+
+1 MW
+
+![image](https://user-images.githubusercontent.com/117923992/202029970-1bbb19bb-f0a5-4015-aa59-202039aa6e5c.png)
+
+3 MW
+
+![image](https://user-images.githubusercontent.com/117923992/202030074-25f5d233-7fd2-4d2d-b05b-b589679282f2.png)
+
+150 MW
+
+![image](https://user-images.githubusercontent.com/117923992/202030165-ffaf73f6-25cc-4c2c-a62c-1e279eea03d3.png)
+
+8.7 MW
+
+9. Convierta las siguientes cantidades en microwatts:
+
+![image](https://user-images.githubusercontent.com/117923992/202030515-aaeaefa6-df09-4d42-84d5-1a549b981f7d.png)
+
+
+2,000,000 uW
+
+![image](https://user-images.githubusercontent.com/117923992/202030906-56a77c83-1ca6-4b8c-a235-68c6934fef07.png)
+
+500 uW
+
+
+![image](https://user-images.githubusercontent.com/117923992/202030938-74bee7e7-36b7-4aee-aeb4-5c0b5bb91b85.png)
+
+250 uW
+
+
+![image](https://user-images.githubusercontent.com/117923992/202030992-eeb7e476-6ddc-45c5-8169-8b6d636e6b05.png)
+
+6.67 uW
+
+
+11. Un dispositivo electrónico en particular utiliza 100 mW de potencia. Si funciona durante 24 h, ¿cuántos joules de energía consume?
+
+100mW=0.1 W
+
+60s*60min=3600s
+
+360s*24h=86400s
+
+Joules= 0.1 x 86400 = 8640 J
+
+13. Al final de un periodo de 31 días, su recibo de electricidad muestra que utilizó 1500 kWh. ¿Cuál fue su consumo de potencia diario promedio?
+
+24h*31d =744h
+
+1500kWh/744h =2.02 kW/día
+
+15. Convierta 6700 watts-segundos en kWh.
+
+6700W/3600s x 1h/1000kW
+
+= 0.0018611 kWh
+
+Potencia en un circuito eléctrico
+
+17. Si una fuente de 75 V está suministrando 2 A a una carga, ¿cuál es el valor de resistencia de la carga?
+
+R= V/I
+
+R= 75/2
+
+R= 37.5 ohm
+
+19. Un calentador eléctrico funciona con 120 V y absorbe 3 A de corriente. ¿Cuánta potencia utiliza?
+P= I x V
+
+P= 3 x 120
+
+P= 360 W
+
+21. Calcule la potencia disipada por un resistor de 10 kiloohmio  que transporta 100 uA.
+Sacamos primero el Voltaje 
+
+P= 100 uW
+
+23. Se conecta un resistor de 56 ohmios entre las terminales de una batería de 1.5 V. ¿Cuál es la disipación de potencia en el resistor?
+
+I= V/R
+
+I= 1.5 / 56
+
+I=0.027
+
+P= I x V
+
+P= 0.027 x 1.5 =0.0402W
+
+0.0402 x 1000 =40.2 mW
+
+25. Una fuente de 12 V se conecta entre los extremos de un resistor de 10 ohmios .
+
+a)¿Cuánta energía se utiliza en dos minutos?
+
+0.480 Wh
+
+b) Si después de un minuto se desconecta el resistor, ¿es la potencia durante este primer minuto mayor, menor o igual a la potencia que hay durante un intervalo de dos minutos?
+
+Sigue igual la potencia
+
+Clasificaciones de potencia en resistores
+
+27. Cierto tipo de resistor viene en las siguientes clasificaciones: 3 W, 5 W, 8 W, 12 W, 20 W. Una aplicación en particular requiere de un resistor que pueda manejar aproximadamente 8 W. ¿Qué clasificación utilizaría usted para tener un margen de seguridad mínimo del 20% sobre el valor nominal? ¿Por qué?
+
+Almenos 12 W, para permitir un margen de seguridad del 20%
+
+Fuentes de potencia
+
+29. Una carga de 50 ohmios utiliza 1 W de potencia. ¿Cuál es el voltaje de salida de la fuente de potencia?
+
+7.07 V
+
+31. ¿Cuál es la energía total en joules que suministra la batería del problema 30 durante 90 horas?
+
+50,544 J
+
+33. ¿Cuánta corriente promedio puede ser absorbida de una batería de 80 Ah durante 10 h?
+
+8A
+
+35. Si la potencia de entrada es de 500 mW y la de salida de 400 mW, ¿cuánta potencia se pierde? ¿Cuál es la eficiencia de esta fuente de potencia?
+
+100 mW, 80%
+
+37. Cierta fuente de potencia suministra 2 W de forma continua a una carga. Está operando al 60% de eficiencia. En un periodo de 24 h, ¿cuántos kilowatts-hora utiliza la fuente de potencia?
+
+0.08 kWh
+
 Puede entrar en corto si se ajusta a 0 ohm
 
 35. Repita el problema 34 con un circuito de 110 V y un fusible de 1 A.
@@ -245,14 +424,20 @@ R=110 V / 1 A
 
 R= 110 ohm
 
-R= 110 ohm - 15 ohm
+R= 110 ohm-15 ohm
 
 R=95 ohm
 
-37. Suponga que tiene una serie de 32 luces y uno de los focos se fundió. Con el método de división a la
-mitad, y comenzando por la mitad izquierda del circuito, ¿cuántas lecturas de resistencia tomará loca-
-lizar el foco fundido si es el décimo séptimo de izquierda a derecha?
+Video
 
-Tomara 5 mediciones
+
+
+Conclusiones y bibliografías 
+
+•	Está claro que el manejar ecuaciones para calcular magnitudes electronicas fue de gran importanica para el proceso analitico que estamos llevando a cabo
+•	Como se pudo observar al momento de conocer el como calcular potencia y energia abrio un mundo desconocido hasta el momento, ya que vamos a tener la facultad de realizar multiples ejercicos con un nivel de conplejidad mas alto 
+
+•	Floyd, T. L. F. (2006). Principios de circuitos electronicos (Octava edicion). Pearson education.
+
 
 
